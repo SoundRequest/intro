@@ -8,12 +8,18 @@ import './index.css'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import Home from './pages/Home'
+import Blog from './pages/Blog'
+import Support from './pages/Support'
+import Downloads from './pages/Downloads'
 
 ReactDOM.render(
   <BrowserRouter>
     <App>
       <Switch>
         <Route exact path='/' component={Home} />
+        <Route path='/Blog' component={Blog} />
+        <Route path='/Support' component={Support} />
+        <Route path='/Downloads' component={Downloads} />
       </Switch>
     </App>
   </BrowserRouter>,
