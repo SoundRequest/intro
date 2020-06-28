@@ -1,9 +1,13 @@
 import React from 'react'
 
-class Home extends React.Component {
-  render() {
-    return <div>Home</div>
-  }
+const Home = () => {
+  return (
+    <div className='text-center'>
+      <div className='text-6xl font-bold'>Sound Request</div>
+      <div className="mt-12">대충 소개메시지 1</div>
+      <div className="mt-8">대충 소개메시지 2 </div>
+    </div>
+  )
 }
 
 export default Home
