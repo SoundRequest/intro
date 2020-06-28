@@ -10,7 +10,7 @@ const Downloads = () => {
       <div className='mx-auto'>
         <a
           class='bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center mx-4'
-          href=''>
+          href='#'>
           <svg
             class='fill-current w-4 h-4 mr-2'
             xmlns='http://www.w3.org/2000/svg'
@@ -21,7 +21,7 @@ const Downloads = () => {
         </a>
         <a
           class='bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center mx-4'
-          href=''>
+          href='#'>
           <svg
             class='fill-current w-4 h-4 mr-2'
             xmlns='http://www.w3.org/2000/svg'
@@ -32,7 +32,7 @@ const Downloads = () => {
         </a>
         <a
           class='bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center mx-4'
-          href=''>
+          href='#'>
           이전버전 다운로드
         </a>
       </div>

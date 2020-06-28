@@ -1,17 +1,14 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { isMobile } from 'react-device-detect'
+import Logo from '../assets/logo.svg'
 
 const Navbar = () => {
   const [open, setOpen] = useState(false)
   return (
     <nav className='flex items-center justify-between flex-wrap bg-transparency p-6'>
       <Link className='flex items-center flex-shrink-0 text-white mr-6' to='/'>
-        <img
-          src='/logo.svg'
-          alt='logo'
-          className='fill-current h-12 w-12 mr-2'
-        />
+        <img src={Logo} alt='logo' className='fill-current h-12 w-12 mr-2' />
         <span className='font-semibold text-xl tracking-tight'>
           SoundRequest
         </span>
