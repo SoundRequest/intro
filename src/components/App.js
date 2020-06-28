@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-function App() {
-  return <div className="App">asdf</div>;
+const App = ({ children }) => {
+  return <div className='App'>{children}</div>
 }
 
-export default App;
+export default App
