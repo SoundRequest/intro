@@ -11,6 +11,7 @@ import Home from './pages/Home'
 import Blog from './pages/Blog'
 import Support from './pages/Support'
 import Downloads from './pages/Downloads'
+import NotMatch from './pages/NotMatch'
 
 ReactDOM.render(
   <BrowserRouter>
@@ -20,6 +21,7 @@ ReactDOM.render(
         <Route path='/Blog' component={Blog} />
         <Route path='/Support' component={Support} />
         <Route path='/Downloads' component={Downloads} />
+        <Route component={NotMatch} />
       </Switch>
     </App>
   </BrowserRouter>,

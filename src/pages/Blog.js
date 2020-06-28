@@ -11,6 +11,8 @@ const Blog = () => {
   )
 }
 
-const BlogItem = ({ title, timestamp }) => {}
+const BlogItem = ({ title, timestamp }) => {
+  return <div></div>
+}
 
 export default Blog
